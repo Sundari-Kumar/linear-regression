@@ -1,0 +1,16 @@
+1. Data Loading and Preprocessing:
+Load the dataset from a CSV file and extract the input features (X) and target values (Y). Preprocess the data as necessary.
+2. Visualization:
+Visualize the relationship between the input features (area, number of bedrooms) and the target values (prices) through scatter plots.
+3. Normalization:
+Normalize the input features (X) to have a mean of 0 and a standard deviation of 1. This step ensures fair treatment among features during the optimization process.
+4. Gradient Descent Algorithms:
+a) Batch Gradient Descent:
+Update model parameters (weights) using gradients computed from the entire dataset.
+b) Stochastic Gradient Descent:
+Update model parameters using gradients computed from a single random data point at each iteration.
+c) Mini-Batch Gradient Descent:
+Update model parameters using gradients computed from a small subset (mini-batch) of the dataset at each iteration.
+Loss Function Visualization: Plot the loss function (mean squared error) over epochs or iterations to monitor the convergence of each gradient descent algorithm.
+5. Final Model Evaluation:
+Evaluate the final model's performance on unseen data using appropriate evaluation metrics.
